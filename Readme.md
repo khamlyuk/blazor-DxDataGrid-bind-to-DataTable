@@ -12,4 +12,4 @@ In the case when the structure of the used DataTable is known, it's possible to 
 This approach is demonstrated in the first "Static object" grid.
  
 In some cases, the DataTable object is generated dynamically and its structure is not known. For this scenario, our DxDataGrid supports binding to the IEnumerable collection of the [ExpandoObject](https://docs.microsoft.com/en-us/dotnet/api/system.dynamic.expandoobject?view=netframework-4.8) objects. It's possible to dynamically generate properties in such objects based on the structure of the used DataTable. 
-This approach is demonstrated in the second "Dynamic object" grid. Check the *ConvertDataTableToExpandoObjectList* method which converts the DataTable object to the IEnumerable collection of the ExpandoObject objects.
+This approach is demonstrated in the second "Dynamic object" grid. Check the [ConvertDataTableToExpandoObjectList](./CS/DataGridBindingToDataTable/Pages/Index.razor#L66) method which converts the DataTable object to the IEnumerable collection of the ExpandoObject objects.
