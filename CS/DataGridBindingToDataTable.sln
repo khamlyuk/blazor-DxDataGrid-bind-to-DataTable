@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29311.281
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridBindingToDataTable", "DataGridBindingToDataTable\DataGridBindingToDataTable.csproj", "{B6EEFD0E-D5D6-4579-A1C2-194718078BFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6EEFD0E-D5D6-4579-A1C2-194718078BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6EEFD0E-D5D6-4579-A1C2-194718078BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6EEFD0E-D5D6-4579-A1C2-194718078BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6EEFD0E-D5D6-4579-A1C2-194718078BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E013F82-BD0E-4158-B005-991B3FB1E7A0}
+	EndGlobalSection
+EndGlobal
