@@ -14,7 +14,7 @@ else {
                 PageSize="5">
         <DxDataGridColumn Field="@nameof(MyDataItemClass.Text)"></DxDataGridColumn>
         <DxDataGridSpinEditColumn Field="@nameof(MyDataItemClass.Number)"></DxDataGridSpinEditColumn>
-        <DxDataGridDateEditColumn Field="@nameof(MyDataItemClass.Date)" DisplayFormatString="D" EditFormatString="d"></DxDataGridDateEditColumn>
+        <DxDataGridDateEditColumn Field="@nameof(MyDataItemClass.Date)" DisplayFormat="D" EditorFormat="d"></DxDataGridDateEditColumn>
     </DxDataGrid>
 }
 @if (DataDynamicSource == null) {
@@ -31,7 +31,7 @@ else {
                     <DxDataGridSpinEditColumn Field="@col.ToString()"></DxDataGridSpinEditColumn>
                     break;
                 case "System.DateTime":
-                    <DxDataGridDateEditColumn Field="@col.ToString()" DisplayFormatString="D" EditFormatString="d"></DxDataGridDateEditColumn>
+                    <DxDataGridDateEditColumn Field="@col.ToString()" DisplayFormat="D" EditorFormat="d"></DxDataGridDateEditColumn>
                     break;
                 case "System.String":
                     <DxDataGridColumn Field="@col.ToString()"></DxDataGridColumn>
